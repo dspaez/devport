@@ -13,6 +13,11 @@ export default function Navbar() {
                 <Link href="/" className="text-slate-400 hover:text-white transition-colors">
                     Inicio
                 </Link>
+
+                <Link href="/posts" className="text-slate-400 hover:text-white transition-colors">
+                    Publicaciones
+                </Link>
+
                 <Link href="/dashboard" className="text-slate-400 hover:text-white transition-colors">
                     Dashboard
                 </Link>
